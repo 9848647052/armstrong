@@ -1,0 +1,7 @@
+n=int(input('enter three digit no:'))
+r=n%10
+s=n//100
+if r==s:
+    print('Palindrom')
+else:
+    print('Not a Palindrom')
